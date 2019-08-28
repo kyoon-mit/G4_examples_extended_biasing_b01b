@@ -1,0 +1,13 @@
+# Macro file for the initialization of example/biasing/B01b
+#
+
+#
+# Change the default number of threads (in multi-threaded mode)
+#/run/numberOfThreads 4
+ #
+# Run kernel
+/gun/energy 50 MeV
+/analysis/setFileName B01b.root
+/run/beamOn 300
+
+
